@@ -14,9 +14,6 @@ importers:
       '@skeletonlabs/tw-plugin':
         specifier: ^0.4.0
         version: 0.4.0(tailwindcss@3.4.15)
-      '@steeze-ui/heroicons':
-        specifier: ^2.4.2
-        version: 2.4.2
       '@tailwindcss/forms':
         specifier: ^0.5.9
         version: 0.5.9(tailwindcss@3.4.15)
@@ -427,9 +424,6 @@ packages:
     resolution: {integrity: sha512-v6Y4deBq9ByRx3kTRGgekhhYkWEYgNNNu8UXOwJngCStB7w8SwmbNFSeHkluxMbgCgMnJyp220EMpw9nj/rEsQ==}
     peerDependencies:
       tailwindcss: '>=3.0.0'
-
-  '@steeze-ui/heroicons@2.4.2':
-    resolution: {integrity: sha512-66luL+uaxyC6mcZigewH4phfDxNWj4sH+n6qK2VnY3zcgpMmNAgVQbMGfZYfKhLqrUo13BlqpmhWuHqAUpehlA==}
 
   '@sveltejs/adapter-auto@3.3.1':
     resolution: {integrity: sha512-5Sc7WAxYdL6q9j/+D0jJKjGREGlfIevDyHSQ2eNETHcB1TKlQWHcAo8AS8H1QdjNvSXpvOwNjykDUHPEAyGgdQ==}
@@ -1786,8 +1780,6 @@ snapshots:
   '@skeletonlabs/tw-plugin@0.4.0(tailwindcss@3.4.15)':
     dependencies:
       tailwindcss: 3.4.15
-
-  '@steeze-ui/heroicons@2.4.2': {}
 
   '@sveltejs/adapter-auto@3.3.1(@sveltejs/kit@2.8.5(@sveltejs/vite-plugin-svelte@4.0.2(svelte@5.2.10)(vite@5.4.11(@types/node@22.10.1)))(svelte@5.2.10)(vite@5.4.11(@types/node@22.10.1)))':
     dependencies:

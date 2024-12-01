@@ -1,8 +1,6 @@
-<script>
-	export let introText = '';
-	export let bioText = '';
-	export let companyLogo = '';
-	export let jobTitle = '';
+<script lang="ts">
+	import { INTRO_TEXT, BIO_TEXT } from '../../data/about';
+	import { MOST_RECENT_WORK } from '../../data/experience';
 </script>
 
 <!-- Quick Intro Section -->
@@ -10,20 +8,18 @@
 	<!-- Intro Content -->
 	<div class="max-w-lg text-center md:text-left">
 		<h1 class="mb-4 text-4xl font-bold">Hi, I’m Cody!</h1>
-		<p class="mb-4 text-lg">
-			{introText}
-		</p>
-		<p class="text-lg">{bioText}</p>
+		<p class="mb-4 text-lg">{INTRO_TEXT}</p>
+		<p class="text-lg">{BIO_TEXT}</p>
 
 		<!-- Now Working At Section -->
 		<div class="mt-8">
 			<p class="mb-2 text-base">Now working at</p>
 			<img
-				src={companyLogo}
+				src={MOST_RECENT_WORK.logo}
 				alt="Employer Logo"
 				class="mx-auto mb-2 h-auto w-64 max-w-xs object-contain md:mx-0"
 			/>
-			<p class="text-sm text-gray-600 dark:text-gray-400">{jobTitle}</p>
+			<p class="text-sm text-gray-600 dark:text-gray-400">{MOST_RECENT_WORK.company}</p>
 		</div>
 	</div>
 

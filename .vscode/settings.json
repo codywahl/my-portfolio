@@ -1,5 +1,19 @@
 {
-	"cSpell.words": ["mdsvex", "rgba", "skeletonlabs", "Wahl"],
+	"cSpell.words": [
+		"Carrollton",
+		"fontawesome",
+		"Fonticons",
+		"GREENWAY",
+		"Manibus",
+		"mdsvex",
+		"rgba",
+		"RIGHTCROWD",
+		"skeletonlabs",
+		"SSMS",
+		"Turborepo",
+		"Umzug",
+		"Wahl"
+	],
 	"[javascript]": {
 		"editor.formatOnSave": false,
 		"editor.codeActionsOnSave": {
