@@ -13,8 +13,11 @@
 
 	<!-- Resume Download Section -->
 	<section class="mx-auto max-w-4xl text-center">
-		<button class="btn-primary variant-filled-tertiary btn"> Download My Resume </button>
-		<p class="mt-2 text-sm text-gray-600">PDF, 1.2 MB</p>
+		<a href="/files/Cody_Wahl_TechnologyLeader_Resume.pdf" download="Cody_Wahl_Resume"
+			><button class="btn-primary variant-filled-tertiary btn"> Download My Resume </button></a
+		>
+
+		<p class="mt-2 text-sm text-gray-600">PDF, 112 KB</p>
 	</section>
 
 	<!-- Recommendations Section -->

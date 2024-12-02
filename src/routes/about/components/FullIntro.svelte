@@ -4,7 +4,8 @@
 	// Array of images for the carousel
 	let images = [
 		{ src: '/images/cody.jpeg', alt: 'Head-shot of Cody' },
-		{ src: '/images/cody-presenting.jpeg', alt: 'Cody presenting at a tech talk' }
+		{ src: '/images/cody-presenting.jpeg', alt: 'Cody presenting at a tech talk' },
+		{ src: '/images/cody-family.jpg', alt: 'Cody with his family' }
 	];
 	let currentIndex = 0;
 
@@ -41,7 +42,7 @@
 
 		<!-- Right Column: Carousel -->
 		<div class="pt-12">
-			<div class="relative overflow-hidden rounded-lg">
+			<div class="relative overflow-hidden">
 				<!-- Carousel -->
 				<div class="flex items-center justify-center overflow-hidden">
 					<img

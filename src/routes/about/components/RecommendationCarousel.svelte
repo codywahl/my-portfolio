@@ -16,7 +16,7 @@
 	// Scroll right
 	function scrollRight(): void {
 		const x =
-			elemCarousel.scrollLeft === elemCarousel.scrollWidth - elemCarousel.clientWidth
+			elemCarousel.scrollLeft >= elemCarousel.scrollWidth - elemCarousel.clientWidth
 				? 0 // Loop back to the start
 				: elemCarousel.scrollLeft + elemCarousel.clientWidth; // Step right
 		elemCarousel.scrollTo({ left: x, behavior: 'smooth' });

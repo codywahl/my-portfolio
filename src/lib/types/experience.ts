@@ -30,5 +30,6 @@ export interface Recommendation {
 	company: string;
 	relationship: string;
 	photo: string;
+	linkedinUrl: string;
 	message: string;
 }
