@@ -1,4 +1,4 @@
-import type { Education, Skill, Work } from '../lib/types/experience';
+import type { Education, Recommendation, Skill, Work } from '../lib/types/experience';
 
 const START_YEAR = 2012;
 export const YEARS_OF_EXPERIENCE = new Date().getFullYear() - START_YEAR;
@@ -223,4 +223,75 @@ export const LANGUAGES: Skill[] = [
 	{ name: 'Japanese', rating: 3.5 } // Limited working proficiency
 ];
 
+const DAVID_RECOMMENDATION: Recommendation = {
+	name: 'David Lawton',
+	position: 'Senior Director - AI Platform Lead',
+	company: 'Slalom, Seattle',
+	relationship: 'David was senior to Cody but didn’t manage directly',
+	photo: '/images/david-lawton.jpeg',
+	message:
+		"I had the pleasure of working with Cody for the past two years in Japan, where he consistently demonstrated exceptional skill and dedication as an architect and development lead on our team. Cody played a pivotal role in multiple strategic projects for our company, each involving a different set of technologies. His ability to navigate difficult technical environments and architect solutions into cohesive, innovative design was truly impressive. Cody's technical expertise is matched by his outstanding interpersonal skills. He excels in fostering a collaborative environment, effectively communicating with team members, and building strong relationships with clients. His approachable nature and ability to understand and address client needs have been invaluable to our success. Cody also spent a lot of time building our team’s culture and fostering a positive and fun working environment. Cody's contributions have not only advanced our technical capabilities but also strengthened our client partnerships. I am confident that he will continue to achieve great success in his career, and I wholeheartedly recommend him to any organization seeking a talented and versatile architect."
+};
+
+const THU_RECOMMENDATION: Recommendation = {
+	// @cspell:ignore Dinh, EPAM
+	name: 'Thu Dinh',
+	position: 'Manager',
+	company: 'EPAM System Vietnam',
+	relationship: 'Thu worked with Cody but they were at different companies',
+	photo: '/images/thu-dinh.jpeg',
+	message: `I had the privilege of working with Cody on our first project, and he truly stood out as a leader any developer would be fortunate to have. 
+			In addition to his role as an engineering manager, Cody took on multiple responsibilities including solution architect, technical leader, senior backend developer, scrum master, project manager. 
+			His ability to inspire and guide the teams, while contributing hands-on to various aspects of the project, was instrumental in our success. Cody created a collaborative, supportive environment that empowered developers to excel. 
+			I highly recommend him for any challenging project or leadership role.`
+};
+
+const GEORGE_RECOMMENDATION: Recommendation = {
+	name: 'George Olson',
+	position: 'Director of Software Engineering',
+	company: 'Slalom Build, Portland',
+	relationship: 'George managed Cody directly',
+	photo: '/images/george-olson.jpeg',
+	message: `Cody Wahl stands out as an exceptional leader with a remarkable executive presence that inspires and motivates those around him. His influence extends beyond immediate objectives, leaving a lasting impact on both the organization and its people. It's been a privilege to witness Cody's professional growth and see the positive impact he brings.`
+};
+
+const BEN_RECOMMENDATION: Recommendation = {
+	// @cspell:ignore amptalk
+	name: 'Ben Price',
+	position: 'VP of Engineering',
+	company: 'amptalk',
+	relationship: 'Ben managed Cody directly',
+	photo: '/images/ben-price.jpeg',
+	message: `I've had the pleasure of managing, working with, and getting to know Cody for the past two years. During that time Cody has shown time and time again how valuable of a member of the team he is. I can always rely on Cody to successfully deliver on any project he's aligned to. Cody is also the driving force behind our internal culture committee. He has taken ownership of the culture committee and both organizes and leads regular events. I think it's safe to say that Slalom Build wouldn't be the same without everything that Cody has done. I'm really glad for the opportunity to be working with Cody and hope to continue to do so for the foreseeable future.`
+};
+
+const MARK_RECOMMENDATION: Recommendation = {
+	// @cspell:ignore Shipps
+	name: 'Mark Shipps',
+	position: 'Director of Platform Engineering and Cloud Enablement',
+	company: 'Slalom Tokyo',
+	relationship: 'Mark was senior to Cody but didn’t manage directly',
+	photo: '/images/mark-shipps.jpeg',
+	message: `I had the pleasure of working with Cody these past couple years at Slalom Build. During that time, I came to know how valuable Cody is as a friend, teammate, and technical leader. He is a person who approaches everything he does with a sense of accountability and genuine interest in helping others. His technical abilities as a software engineer are incredible, quickly being able to architect, implement, and optimize on anything he sets out to build. Not only did he excel in delivering quality work and bringing value to our clients of various industries, but he was a critical driver of building team culture. Cody took pride in leading our internal culture committee, whose mission was to invest in and intentionally drive an inclusive team culture of connectivity where all loved their work. This was no small amount of work, and it was critical in the success that we've had in fulfilling that mission. Cody will no doubt continue to excel in all he sets out to do, and he receives my highest recommendation.`
+};
+
+const JESS_RECOMMENDATION: Recommendation = {
+	name: 'Jess Stull',
+	position: 'Senior Architect, Solution Ownership',
+	company: 'Slalom, Seattle',
+	relationship: 'Jess worked with Cody on the same team',
+	photo: '/images/jess-stull.jpeg',
+	message: `Over the last 5+ months, I have had the honor of working with Cody on the KHI project. During this time Cody has demonstrated superior leadership and ownership on the project. 
+
+Cody was tasked with leading the back-end development and delivery on the project. The task was made even more challenging with the product owner and some development team members located 16-hours behind the Tokyo time zone. Despite the extra challenges this brought, Cody successfully led the back-end team to deliver MVP on time. It was great to witness Cody truly own the back end. He coached and guided more junior team members, provided his subject matter expertise among the other project leads, and always considered the quality and sustainability of the application. I had no doubt about Cody’s commitment or determination to develop a great product, and I believe his attitude inspired others on the team to do the same. I am also very grateful to Cody for taking on a leadership role amongst all our Tokyo team members after our Tokyo SO transitioned off the team. Cody made sure the team’s concerns were heard and morale was good. I hope I have the privilege of working with Cody on another project soon!`
+};
+
+export const RECOMMENDATIONS: Recommendation[] = [
+	DAVID_RECOMMENDATION,
+	THU_RECOMMENDATION,
+	GEORGE_RECOMMENDATION,
+	BEN_RECOMMENDATION,
+	MARK_RECOMMENDATION,
+	JESS_RECOMMENDATION
+];
 export const CERTIFICATIONS = [];

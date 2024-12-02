@@ -4,15 +4,21 @@
 	import EducationCard from './EducationCard.svelte';
 	import WorkCard from './WorkCard.svelte';
 	import Skills from './Skills.svelte';
+
+	export let showAboutLink: boolean;
 </script>
 
 <section class="mx-auto w-full max-w-4xl">
 	<!-- Work History -->
 	<div class="flex items-center justify-between">
 		<h2 class="mb-6 text-2xl font-bold">Work History</h2>
-		<a href="/about" class="text-sm text-gray-600 hover:underline dark:text-gray-400"
-			>See Full Bio →</a
-		>
+
+		{#if showAboutLink}
+			<!-- Conditional "See Full Bio" link -->
+			<a href="/about" class="text-sm text-gray-600 hover:underline dark:text-gray-400">
+				See Full Bio →
+			</a>
+		{/if}
 	</div>
 	<div class="flex flex-col gap-6">
 		{#each ALL_WORK_EXPERIENCE as work}

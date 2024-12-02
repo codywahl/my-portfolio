@@ -10,7 +10,7 @@
 
 	<HighlightedProjects />
 
-	<Experience />
+	<Experience showAboutLink={true} />
 </main>
 
 <footer class="pt-24"></footer>

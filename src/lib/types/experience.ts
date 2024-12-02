@@ -23,3 +23,12 @@ export interface Skill {
 	name: string;
 	rating?: number;
 }
+
+export interface Recommendation {
+	name: string;
+	position: string;
+	company: string;
+	relationship: string;
+	photo: string;
+	message: string;
+}
