@@ -10,7 +10,7 @@
 	import { RATINGS } from './ratings';
 </script>
 
-<section class="mx-auto w-full max-w-4xl py-12">
+<section class="mx-auto w-full py-12">
 	<h2 class="mb-8 text-2xl font-bold">Skills</h2>
 
 	<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
@@ -21,15 +21,13 @@
 				<h3 class="mb-4 text-xl font-semibold">Technical Leadership</h3>
 				<ul class="space-y-4">
 					{#each TECHNICAL_SKILLS as skill}
-						<li class="flex flex-col items-center md:flex-row md:items-start">
+						<li class="flex items-center">
 							<!-- Skill Name -->
-							<p
-								class="mb-2 w-full flex-shrink-0 whitespace-nowrap pl-4 text-base md:mb-0 md:w-1/2"
-							>
+							<p class="w-1/2 flex-shrink-0 whitespace-nowrap text-xs md:pl-4 md:text-base">
 								{skill.name}
 							</p>
 							<!-- Ratings -->
-							<div class="flex w-full flex-shrink-0 justify-end md:w-1/2">
+							<div class="flex w-1/2 flex-shrink-0 justify-end">
 								<Ratings value={skill.rating} max={5}>
 									<svelte:fragment slot="empty">{@html RATINGS.circleEmpty}</svelte:fragment>
 									<svelte:fragment slot="half">{@html RATINGS.circleHalf}</svelte:fragment>
@@ -51,7 +49,7 @@
 					{#each PROGRAMMING_LANGUAGES as skill}
 						<li class="flex items-center">
 							<!-- Skill Name -->
-							<p class="w-1/2 flex-shrink-0 whitespace-nowrap pl-4 text-base">{skill.name}</p>
+							<p class="w-1/2 flex-shrink-0 whitespace-nowrap text-base md:pl-4">{skill.name}</p>
 							<!-- Ratings -->
 							<div class="flex w-1/2 flex-shrink-0 justify-end">
 								<Ratings value={skill.rating} max={5}>
@@ -77,7 +75,7 @@
 					{#each PLATFORM_ENGINEERING as skill}
 						<li class="flex items-center">
 							<!-- Skill Name -->
-							<p class="w-1/2 flex-shrink-0 whitespace-nowrap pl-4 text-base">{skill.name}</p>
+							<p class="w-1/2 flex-shrink-0 whitespace-nowrap text-base md:pl-4">{skill.name}</p>
 							<!-- Ratings -->
 							<div class="flex w-1/2 flex-shrink-0 justify-end">
 								<Ratings value={skill.rating} max={5}>

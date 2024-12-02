@@ -19,7 +19,7 @@
 	}
 </script>
 
-<section class="mx-auto max-w-6xl gap-8 px-8 py-12">
+<section class="mx-auto gap-8">
 	<div class="grid grid-cols-1 md:grid-cols-2">
 		<!-- Left Column -->
 		<div class="space-y-8 pr-6">

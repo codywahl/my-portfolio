@@ -5,12 +5,12 @@
 	import Experience from './components/Experience.svelte';
 </script>
 
-<main class="flex flex-col gap-24 px-8 py-12 md:px-16">
+<section class="flex flex-col gap-24">
 	<QuickIntro />
 
 	<HighlightedProjects />
 
 	<Experience showAboutLink={true} />
-</main>
+</section>
 
 <footer class="pt-24"></footer>

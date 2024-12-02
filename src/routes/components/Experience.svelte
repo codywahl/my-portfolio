@@ -8,7 +8,7 @@
 	export let showAboutLink: boolean;
 </script>
 
-<section class="mx-auto w-full max-w-4xl">
+<section class="mx-auto w-full">
 	<!-- Work History -->
 	<div class="flex items-center justify-between">
 		<h2 class="mb-6 text-2xl font-bold">Work History</h2>

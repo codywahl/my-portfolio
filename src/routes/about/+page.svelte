@@ -5,14 +5,14 @@
 	import RecommendationCarousel from './components/RecommendationCarousel.svelte';
 </script>
 
-<main class="flex flex-col gap-20 px-8 py-12 md:px-16">
+<section class="flex w-full flex-col gap-20">
 	<!-- About Me Section -->
-	<section class="mx-auto max-w-4xl">
+	<section class="mx-auto">
 		<FullIntro />
 	</section>
 
 	<!-- Resume Download Section -->
-	<section class="mx-auto max-w-4xl text-center">
+	<section class="mx-auto text-center">
 		<a href="/files/Cody_Wahl_TechnologyLeader_Resume.pdf" download="Cody_Wahl_Resume"
 			><button class="btn-primary variant-filled-tertiary btn"> Download My Resume </button></a
 		>
@@ -21,13 +21,13 @@
 	</section>
 
 	<!-- Recommendations Section -->
-	<section class="mx-auto max-w-4xl">
+	<section class="mx-auto w-full">
 		<h2 class="mb-6 text-center text-3xl font-bold">Professional Recommendations</h2>
 		<RecommendationCarousel />
 	</section>
 
 	<!-- Experience Section -->
-	<section class="mx-auto max-w-4xl">
+	<section class="mx-auto">
 		<Experience showAboutLink={false} />
 	</section>
-</main>
+</section>

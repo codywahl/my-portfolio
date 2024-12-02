@@ -4,7 +4,7 @@
 </script>
 
 <!-- Quick Intro Section -->
-<section class="mx-auto flex w-full max-w-4xl flex-col-reverse items-center gap-8 md:flex-row">
+<section class="mx-auto flex w-full flex-col-reverse items-center gap-8 md:flex-row">
 	<!-- Intro Content -->
 	<div class="max-w-lg text-center md:text-left">
 		<h1 class="mb-4 text-4xl font-bold">Hi, I’m Cody!</h1>

@@ -98,8 +98,8 @@ export const ALL_EDUCATION: Education[] = [UNIVERSITY_OF_WEST_GEORGIA, YMCA_JAPA
 
 export const TECHNICAL_SKILLS: Skill[] = [
 	{ name: 'Agile Team Management', rating: 4.5 },
-	{ name: 'Cross-Functional Collaboration', rating: 4.5 },
-	{ name: 'Multinational Team Leadership', rating: 4.5 },
+	{ name: 'Cross-Functional Teams', rating: 4.5 },
+	{ name: 'Distributed Team Leadership', rating: 4.5 },
 	{ name: 'Sprint Planning', rating: 4.5 },
 	{ name: 'Technical Story Writing', rating: 4.5 },
 	{ name: 'Conflict Resolution', rating: 4.5 },
