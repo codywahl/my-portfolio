@@ -27,7 +27,7 @@
 	</div>
 
 	<!-- Education -->
-	<h2 class="mb-6 pt-10 text-2xl font-bold">Education</h2>
+	<h2 class="pt-10 text-2xl font-bold">Education</h2>
 	<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
 		{#each ALL_EDUCATION as education}
 			<EducationCard {education} />

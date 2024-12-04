@@ -12,5 +12,3 @@
 
 	<Experience showAboutLink={true} />
 </section>
-
-<footer class="pt-24"></footer>

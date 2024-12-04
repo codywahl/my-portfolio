@@ -23,7 +23,7 @@
 	<!-- Modal Image -->
 	<div class="hidden md:block">
 		<div class="flex justify-center">
-			<img src={project.image} alt={project.title} class="max-h-4xl mb-4 max-w-4xl rounded-lg" />
+			<img src={project.image} alt={project.title} class="max-h-3xl mb-4 max-w-3xl rounded-lg" />
 		</div>
 	</div>
 
