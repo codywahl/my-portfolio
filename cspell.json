@@ -1,0 +1,28 @@
+{
+	"version": "0.2",
+	"language": "en",
+	"files": ["**/*"],
+	"words": [
+		"BEEM",
+		"Carrollton",
+		"eftpos",
+		"EUMERIA",
+		"fontawesome",
+		"Fonticons",
+		"Gantt",
+		"GREENWAY",
+		"Leetcode",
+		"Manibus",
+		"mdsvex",
+		"Neetcode",
+		"resx",
+		"RIGHTCROWD",
+		"skeletonlabs",
+		"TAKENAKA",
+		"Turborepo",
+		"Umzug",
+		"Wahl"
+	],
+	"caseSensitive": false,
+	"ignorePaths": ["node_modules", "static", "pnpm-lock.yaml"]
+}

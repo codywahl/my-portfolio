@@ -7,7 +7,9 @@
 		LANGUAGES,
 		TOOLS_AND_TECHNOLOGIES
 	} from '../../data/experience';
-	import { RATINGS } from './ratings';
+	import CircleEmpty from './CircleEmpty.svelte';
+	import CircleHalf from './CircleHalf.svelte';
+	import CircleFull from './CircleFull.svelte';
 </script>
 
 <section class="mx-auto w-full py-12">
@@ -29,9 +31,9 @@
 							<!-- Ratings -->
 							<div class="flex w-1/2 flex-shrink-0 justify-end">
 								<Ratings value={skill.rating} max={5}>
-									<svelte:fragment slot="empty">{@html RATINGS.circleEmpty}</svelte:fragment>
-									<svelte:fragment slot="half">{@html RATINGS.circleHalf}</svelte:fragment>
-									<svelte:fragment slot="full">{@html RATINGS.circleFull}</svelte:fragment>
+									<svelte:fragment slot="empty"><CircleEmpty /></svelte:fragment>
+									<svelte:fragment slot="half"><CircleHalf /></svelte:fragment>
+									<svelte:fragment slot="full"><CircleFull /></svelte:fragment>
 								</Ratings>
 							</div>
 						</li>
@@ -53,9 +55,9 @@
 							<!-- Ratings -->
 							<div class="flex w-1/2 flex-shrink-0 justify-end">
 								<Ratings value={skill.rating} max={5}>
-									<svelte:fragment slot="empty">{@html RATINGS.circleEmpty}</svelte:fragment>
-									<svelte:fragment slot="half">{@html RATINGS.circleHalf}</svelte:fragment>
-									<svelte:fragment slot="full">{@html RATINGS.circleFull}</svelte:fragment>
+									<svelte:fragment slot="empty"><CircleEmpty /></svelte:fragment>
+									<svelte:fragment slot="half"><CircleHalf /></svelte:fragment>
+									<svelte:fragment slot="full"><CircleFull /></svelte:fragment>
 								</Ratings>
 							</div>
 						</li>
@@ -79,9 +81,9 @@
 							<!-- Ratings -->
 							<div class="flex w-1/2 flex-shrink-0 justify-end">
 								<Ratings value={skill.rating} max={5}>
-									<svelte:fragment slot="empty">{@html RATINGS.circleEmpty}</svelte:fragment>
-									<svelte:fragment slot="half">{@html RATINGS.circleHalf}</svelte:fragment>
-									<svelte:fragment slot="full">{@html RATINGS.circleFull}</svelte:fragment>
+									<svelte:fragment slot="empty"><CircleEmpty /></svelte:fragment>
+									<svelte:fragment slot="half"><CircleHalf /></svelte:fragment>
+									<svelte:fragment slot="full"><CircleFull /></svelte:fragment>
 								</Ratings>
 							</div>
 						</li>
@@ -104,9 +106,9 @@
 
 							<div class="flex w-1/2 flex-shrink-0 justify-end">
 								<Ratings value={skill.rating} max={5}>
-									<svelte:fragment slot="empty">{@html RATINGS.circleEmpty}</svelte:fragment>
-									<svelte:fragment slot="half">{@html RATINGS.circleHalf}</svelte:fragment>
-									<svelte:fragment slot="full">{@html RATINGS.circleFull}</svelte:fragment>
+									<svelte:fragment slot="empty"><CircleEmpty /></svelte:fragment>
+									<svelte:fragment slot="half"><CircleHalf /></svelte:fragment>
+									<svelte:fragment slot="full"><CircleFull /></svelte:fragment>
 								</Ratings>
 							</div>
 						</li>

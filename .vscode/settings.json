@@ -1,26 +1,4 @@
 {
-	"cSpell.words": [
-		"Beem",
-		"Carrollton",
-		"Eumeria",
-		"fontawesome",
-		"Fonticons",
-		"Gantt",
-		"GREENWAY",
-		"Leetcode",
-		"Manibus",
-		"mdsvex",
-		"NEETCODE",
-		"RESX",
-		"rgba",
-		"RIGHTCROWD",
-		"skeletonlabs",
-		"SSMS",
-		"TAKENAKA",
-		"Turborepo",
-		"Umzug",
-		"Wahl"
-	],
 	"[javascript]": {
 		"editor.formatOnSave": false,
 		"editor.codeActionsOnSave": {

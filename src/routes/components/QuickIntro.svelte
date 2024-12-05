@@ -19,7 +19,9 @@
 				alt="Employer Logo"
 				class="mx-auto mb-2 h-auto w-64 max-w-xs object-contain md:mx-0"
 			/>
-			<p class="text-sm text-gray-600 dark:text-gray-400">{MOST_RECENT_WORK.company}</p>
+			<p class="text-sm text-gray-600 dark:text-gray-400">
+				{MOST_RECENT_WORK.company} in {MOST_RECENT_WORK.location}
+			</p>
 		</div>
 	</div>
 
