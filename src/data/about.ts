@@ -4,17 +4,16 @@ export const INTRO_TEXT: string = `I’m a software engineer and technical lead 
 export const BIO_TEXT: string =
 	'I’ve lived and worked in tech hubs such as Tokyo, Seattle, and Atlanta. Outside of work, I enjoy hiking, weight lifting, judo, and spending time with my growing family.';
 
-export const PORTFOLIO_TEXT: string = `This portfolio gave me the chance to dive into SvelteKit and Skeleton—new tools that were
-					as fun to learn as they are powerful. It’s the same approach I bring to my work: staying
-					curious, learning quickly, and turning ideas into polished solutions.`;
+export const PORTFOLIO_TEXT: string = `This portfolio is built with SvelteKit and Skeleton—tools I explored for the first time 
+			and found as fun to learn as they are powerful. It’s hosted on Vercel and leverages GitHub Actions for 
+			automated deployments.`;
 
-export const ABOUT_TEXT: string = `For the last few years, I’ve been leading international teams to deliver high-impact
-					software. My focus is on building strong, collaborative environments where people enjoy
-					their work and bring out their best. Whether mentoring developers, streamlining processes,
-					or delivering complex projects, I keep things clear, focused, and team-driven. I’m
-					passionate about the craft of software development, but also about the people behind it.
-					My goal is always the same: meaningful work, done well, with a team that is proud of the
-					work they do.`;
+export const ABOUT_TEXT: string = `For the last few years, I’ve been leading international teams to design, develop, 
+			and deliver high-impact software. As a tech lead and architect, I guide projects from concept to completion, 
+			ensuring scalable designs, clean implementations, and technical excellence. I focus on fostering collaborative 
+			environments where teams thrive, delivering meaningful work they’re proud of. Whether mentoring developers, 
+			streamlining processes, or tackling complex challenges, I stay hands-on to keep things clear, focused, and 
+			team-driven.  My goal is always the same: meaningful work, done well, with a team that is proud of what they build.`;
 
 export const CURRENT_WORK_1: string = `Currently, I work as a Senior Manager and Solution Architect at Gran Manibus, a subsidiary of
 			one of Japan’s largest conglomerates, based in Tokyo. As a co-founding member of the

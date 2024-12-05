@@ -32,7 +32,7 @@ const TAKENAKA_PROJECT: Project = {
 	shortDescription:
 		'Modern web app for planning large-scale construction projects, featuring advanced Gantt and Japanese-specific charts.',
 	longDescription: `Takenaka Corporation, one of Japan’s largest and oldest construction companies, needed a modern web application to improve the planning of their large-scale construction projects. After three years of working with another vendor, their existing .NET solution was slow and unusable. Our team was brought in to turn the project around.
-                    I conducted a thorough technical assessment, recommending a complete rebuild with a modern tech stack. Acting as the technical lead during a month-long discovery phase, I collaborated closely with Takenaka to define their needs and ensure the solution would meet their goals. Over the next six months, I architected and led the delivery of a React and TypeScript-based web application, featuring advanced Gantt charts and Japanese-specific charting tools tailored to their workflows.
+                    I conducted a thorough technical assessment, recommending a complete rebuild with a modern tech stack. Acting as the technical lead during a month-long discovery phase, I collaborated closely with Takenaka to define their needs and ensure the solution would meet their goals. Over the next six months, we built out the solution I architected using AWS, React and TypeScript.
                     The serverless backend, powered by AWS Lambda, API Gateway, Cognito, and S3, provided scalability, reliability, and modern authentication. AWS CloudFormation streamlined infrastructure management. The final solution replaced the legacy system, drastically improving performance and usability, and helped Takenaka enhance collaboration and efficiency across their teams.`,
 	techStack: ['React', 'TypeScript', 'AWS', 'DynamoDB'],
 	image: '/images/takenaka.jpg',
@@ -112,7 +112,7 @@ const FIRST_AMERICAN_PROJECT: Project = {
 	shortDescription:
 		'Natural hazard discloser report ordering platform for First American Financial Corporation, enabling efficient and compliant property disclosures.',
 	longDescription:
-		'The Natural Hazard Disclosures (NHD) report ordering platform was designed to streamline the process of requesting essential property-related reports. The platform allowed users to quickly and efficiently order NHD reports, ensuring compliance and transparency in real estate transactions. As the lead backend developer, I played a pivotal role in designing and implementing the backend architecture, enabling reliable report generation and seamless functionality. This foundational project fostered a strong ongoing relationship between First American Financial Corporation and Slalom, paving the way for future collaborations.',
+		'The Natural Hazard Disclosures (NHD) report ordering platform was designed to streamline the process of requesting essential property-related reports. The platform allowed users to quickly and efficiently order NHD reports, ensuring compliance and transparency in real estate transactions. As a Senior Engineer, I played a pivotal role in designing and implementing the system`s backend, enabling reliable and performant functionality. This foundational project fostered a strong ongoing relationship between First American Financial Corporation and Slalom, paving the way for future collaborations.',
 	techStack: ['C#', '.NET', 'SQL Server'],
 	image: '/images/first-american-nhd.png',
 	link: 'https://orderform.fanhd.com/',
