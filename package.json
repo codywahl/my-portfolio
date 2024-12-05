@@ -2,6 +2,7 @@
 	"name": "my-portfolio",
 	"version": "0.0.1",
 	"type": "module",
+	"packageManager": "pnpm@9.8.0",
 	"scripts": {
 		"dev": "vite dev",
 		"pre-build": "pnpm check && pnpm typecheck && pnpm spellcheck && pnpm format && pnpm lint",
