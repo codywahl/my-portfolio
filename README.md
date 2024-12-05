@@ -2,6 +2,8 @@
 
 This is my personal portfolio website, showcasing my projects, experience, and skills. Built with **SvelteKit** and **Skeleton**, it leverages modern web technologies and deployment pipelines for a seamless experience.
 
+[![Build and Deploy](https://github.com/codywahl/my-portfolio/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/codywahl/my-portfolio/actions/workflows/deploy.yml)
+
 ![Portfolio Preview](./static/images/portfolio-preview.png)
 
 ---
