@@ -42,7 +42,7 @@
 
 		<!-- Right Column: Carousel -->
 		<div class="pt-12">
-			<div class="relative overflow-hidden">
+			<div class="relative">
 				<!-- Carousel -->
 				<div class="flex items-center justify-center overflow-hidden">
 					<img
@@ -55,14 +55,14 @@
 				<!-- Navigation Buttons -->
 				<button
 					type="button"
-					class="variant-filled btn-icon absolute left-2 top-1/2 z-10 -translate-y-1/2"
+					class="variant-filled btn-icon absolute -left-8 top-1/2 z-10 -translate-y-1/2 md:left-2"
 					on:click={prevImage}
 				>
 					←
 				</button>
 				<button
 					type="button"
-					class="variant-filled btn-icon absolute right-2 top-1/2 z-10 -translate-y-1/2"
+					class="variant-filled btn-icon absolute -right-8 top-1/2 z-10 -translate-y-1/2 md:right-2"
 					on:click={nextImage}
 				>
 					→
