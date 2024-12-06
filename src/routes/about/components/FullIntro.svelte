@@ -55,14 +55,14 @@
 				<!-- Navigation Buttons -->
 				<button
 					type="button"
-					class="variant-filled btn-icon absolute -left-8 top-1/2 z-10 -translate-y-1/2 md:left-2"
+					class="variant-filled btn-icon absolute -left-7 top-1/2 z-10 -translate-y-1/2 md:left-2"
 					on:click={prevImage}
 				>
 					←
 				</button>
 				<button
 					type="button"
-					class="variant-filled btn-icon absolute -right-8 top-1/2 z-10 -translate-y-1/2 md:right-2"
+					class="variant-filled btn-icon absolute -right-7 top-1/2 z-10 -translate-y-1/2 md:right-2"
 					on:click={nextImage}
 				>
 					→

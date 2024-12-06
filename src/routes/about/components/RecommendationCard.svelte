@@ -4,7 +4,7 @@
 	export let recommendation: Recommendation;
 </script>
 
-<div class="card variant-soft flex h-full items-center justify-center p-5 shadow-md md:p-10">
+<div class="card variant-soft flex h-full items-center justify-center p-3 shadow-md md:p-10">
 	<!-- Recommendation Text -->
 	<div>
 		<p class="mb-4 italic">"{recommendation.message}"</p>
