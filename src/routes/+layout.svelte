@@ -1,9 +1,12 @@
 <script>
 	import '../app.css';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import { dev } from '$app/environment';
 	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 	import { initializeStores, Modal } from '@skeletonlabs/skeleton';
 	initializeStores();
+
+	injectAnalytics({ mode: dev ? 'development' : 'production' });
 
 	const year = new Date().getFullYear();
 </script>
