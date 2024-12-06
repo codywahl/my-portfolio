@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 	import { initializeStores, Modal } from '@skeletonlabs/skeleton';
 	initializeStores();
 
