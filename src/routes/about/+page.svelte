@@ -17,7 +17,7 @@
 			><button class="btn-primary variant-filled-tertiary btn"> Download My Resume </button></a
 		>
 
-		<p class="mt-2 text-sm text-gray-600">PDF, 112 KB</p>
+		<p class="mt-2 text-sm text-gray-600">PDF, 156 KB</p>
 	</section>
 
 	<!-- Recommendations Section -->
