@@ -13,7 +13,7 @@
 
 	<!-- Resume Download Section -->
 	<section class="mx-auto text-center">
-		<a href="/files/Cody_Wahl_TechnologyLeader_Resume.pdf" download="Cody_Wahl_Resume"
+		<a href="/files/Cody_Wahl_Resume.pdf" download="Cody_Wahl_Resume"
 			><button class="btn-primary variant-filled-tertiary btn"> Download My Resume </button></a
 		>
 
