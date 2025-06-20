@@ -3,29 +3,39 @@ import type { Education, Recommendation, Skill, Work } from '../lib/types/experi
 const START_YEAR = 2012;
 export const YEARS_OF_EXPERIENCE = new Date().getFullYear() - START_YEAR;
 
+const PLASTER_GROUP: Work = {
+	company: 'Plaster Group',
+	position: 'Enterprise Software, Senior Consultant',
+	location: 'Seattle, WA',
+	startYear: '2025',
+	endYear: 'Current',
+	logo: '/images/pg-logo.webp',
+	logoDark: '/images/pg-logo.webp'
+};
+
 const GRAN_MANIBUS: Work = {
 	company: 'Gran Manibus',
-	position: 'Senior Manager, Solution Architect',
+	position: 'Senior Manager, Software Engineering Solution Architect',
 	location: 'Tokyo, Japan',
 	startYear: '2024',
-	endYear: 'Current',
+	endYear: '2025',
 	logo: '/images/full-gc-logo.png',
 	logoDark: '/images/full-gc-logo.png'
 };
 
 const SLALOM_TOKYO: Work = {
-	company: 'Slalom',
+	company: 'Slalom Build',
 	position: 'Software Engineering Solution Architect',
 	location: 'Tokyo, Japan',
 	startYear: '2021',
 	endYear: '2024',
-	logo: '/images/slalom-logo-blue-rgb.svg',
-	logoDark: '/images/slalom-logo-white-rgb.svg'
+	logo: '/images/slalom-build-logo-black.svg',
+	logoDark: '/images/slalom-build-logo.svg'
 };
 
 const RIGHTCROWD: Work = {
 	company: 'RightCrowd',
-	position: 'Solution Architect',
+	position: 'Software Engineering Solution Architect',
 	location: 'Seattle, WA',
 	startYear: '2017',
 	endYear: '2020',
@@ -34,13 +44,13 @@ const RIGHTCROWD: Work = {
 };
 
 const SLALOM_SEATTLE: Work = {
-	company: 'Slalom',
+	company: 'Slalom Build',
 	position: 'Senior Software Engineer',
 	location: 'Seattle, WA',
 	startYear: '2015',
 	endYear: '2017',
-	logo: '/images/slalom-logo-blue-rgb.svg',
-	logoDark: '/images/slalom-logo-white-rgb.svg'
+	logo: '/images/slalom-build-logo-black.svg',
+	logoDark: '/images/slalom-build-logo.svg'
 };
 
 const GREENWAY: Work = {
@@ -54,6 +64,7 @@ const GREENWAY: Work = {
 };
 
 export const ALL_WORK_EXPERIENCE: Work[] = [
+	PLASTER_GROUP,
 	GRAN_MANIBUS,
 	SLALOM_TOKYO,
 	RIGHTCROWD,

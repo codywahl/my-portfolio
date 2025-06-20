@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { INTRO_TEXT, BIO_TEXT } from '../../data/about';
 	import { MOST_RECENT_WORK } from '../../data/experience';
+	import ResumeDownload from './ResumeDownload.svelte';
 </script>
 
 <!-- Quick Intro Section -->
@@ -33,5 +34,9 @@
 			alt="Picture of Cody"
 			class="h-48 w-48 rounded-full object-cover shadow-lg md:h-64 md:w-64"
 		/>
+
+		<div class="mt-8">
+			<ResumeDownload />
+		</div>
 	</div>
 </section>

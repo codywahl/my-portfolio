@@ -1,5 +1,11 @@
 <script lang="ts">
-	import { ABOUT_TEXT, CURRENT_WORK_1, CURRENT_WORK_2, PORTFOLIO_TEXT } from '../../../data/about';
+	import {
+		ABOUT_LOCATION_TEXT,
+		ABOUT_TEXT,
+		CURRENT_WORK_1 as CURRENT_WORK_1,
+		CURRENT_WORK_2 as CURRENT_WORK_2,
+		PORTFOLIO_TEXT
+	} from '../../../data/about';
 
 	// Array of images for the carousel
 	let images = [
@@ -38,6 +44,11 @@
 					{ABOUT_TEXT}
 				</p>
 			</div>
+			<div>
+				<p>
+					{ABOUT_LOCATION_TEXT}
+				</p>
+			</div>
 		</div>
 
 		<!-- Right Column: Carousel -->
@@ -73,7 +84,7 @@
 
 	<!-- Current Work -->
 	<div class="mt-10">
-		<h3 class="mb-4 text-2xl font-bold">Current Work</h3>
+		<h3 class="mb-4 text-2xl font-bold">What I'm working on</h3>
 		<p>
 			{CURRENT_WORK_1}
 		</p>
