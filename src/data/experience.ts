@@ -3,12 +3,22 @@ import type { Education, Recommendation, Skill, Work } from '../lib/types/experi
 const START_YEAR = 2012;
 export const YEARS_OF_EXPERIENCE = new Date().getFullYear() - START_YEAR;
 
+const FINVARI: Work = {
+	company: 'Finvari',
+	position: 'Lead Solutions Engineer',
+	location: 'Seattle, WA',
+	startYear: '2025',
+	endYear: 'Current',
+	logo: '/images/finvari-logo.png',
+	logoDark: '/images/finvari-logo-white.png'
+};
+
 const PLASTER_GROUP: Work = {
 	company: 'Plaster Group',
 	position: 'Enterprise Software, Senior Consultant',
 	location: 'Seattle, WA',
 	startYear: '2025',
-	endYear: 'Current',
+	endYear: '2025',
 	logo: '/images/pg-logo.webp',
 	logoDark: '/images/pg-logo.webp'
 };
@@ -64,6 +74,7 @@ const GREENWAY: Work = {
 };
 
 export const ALL_WORK_EXPERIENCE: Work[] = [
+	FINVARI,
 	PLASTER_GROUP,
 	GRAN_MANIBUS,
 	SLALOM_TOKYO,

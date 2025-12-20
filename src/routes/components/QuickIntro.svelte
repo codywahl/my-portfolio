@@ -18,7 +18,12 @@
 			<img
 				src={MOST_RECENT_WORK.logo}
 				alt="Employer Logo"
-				class="mx-auto mb-2 h-auto w-64 max-w-xs object-contain md:mx-0"
+				class="mx-auto mb-2 h-auto w-64 max-w-xs object-contain dark:hidden md:mx-0"
+			/>
+			<img
+				src={MOST_RECENT_WORK.logoDark ?? MOST_RECENT_WORK.logo}
+				alt="Employer Logo Dark Mode"
+				class="mx-auto mb-2 hidden h-auto w-64 max-w-xs object-contain dark:block md:mx-0"
 			/>
 			<p class="text-sm text-gray-600 dark:text-gray-400">
 				{MOST_RECENT_WORK.company} in {MOST_RECENT_WORK.location}

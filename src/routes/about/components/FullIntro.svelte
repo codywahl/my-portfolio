@@ -85,11 +85,16 @@
 	<!-- Current Work -->
 	<div class="mt-10">
 		<h3 class="mb-4 text-2xl font-bold">What I'm working on</h3>
-		<p>
-			{CURRENT_WORK_1}
-		</p>
-		<p>
-			{CURRENT_WORK_2}
-		</p>
+		<div class="mb-4">
+			<p>
+				{CURRENT_WORK_1}
+			</p>
+		</div>
+
+		<div class="mb-4">
+			<p>
+				{CURRENT_WORK_2}
+			</p>
+		</div>
 	</div>
 </section>

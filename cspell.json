@@ -1,12 +1,17 @@
 {
 	"version": "0.2",
 	"language": "en",
-	"files": ["**/*"],
+	"files": [
+		"**/*"
+	],
 	"words": [
+		"architecting",
 		"BEEM",
 		"Carrollton",
 		"eftpos",
 		"EUMERIA",
+		"fintech",
+		"finvari",
 		"fontawesome",
 		"Fonticons",
 		"Gantt",
@@ -24,5 +29,9 @@
 		"Wahl"
 	],
 	"caseSensitive": false,
-	"ignorePaths": ["node_modules", "static", "pnpm-lock.yaml"]
+	"ignorePaths": [
+		"node_modules",
+		"static",
+		"pnpm-lock.yaml"
+	]
 }

@@ -9,7 +9,7 @@
 		<div>
 			<img src={work.logo} alt="{work.company} logo" class="h-20 w-24 object-contain dark:hidden" />
 			<img
-				src={work.logoDark}
+				src={work.logoDark ?? work.logo}
 				alt="{work.company} logo dark mode"
 				class="hidden h-20 w-28 object-contain dark:block"
 			/>
