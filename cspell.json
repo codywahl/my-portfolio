@@ -1,9 +1,7 @@
 {
 	"version": "0.2",
 	"language": "en",
-	"files": [
-		"**/*"
-	],
+	"files": ["**/*"],
 	"words": [
 		"architecting",
 		"BEEM",
@@ -12,6 +10,7 @@
 		"EUMERIA",
 		"fintech",
 		"finvari",
+		"Firestore",
 		"fontawesome",
 		"Fonticons",
 		"Gantt",
@@ -29,9 +28,5 @@
 		"Wahl"
 	],
 	"caseSensitive": false,
-	"ignorePaths": [
-		"node_modules",
-		"static",
-		"pnpm-lock.yaml"
-	]
+	"ignorePaths": ["node_modules", "static", "pnpm-lock.yaml"]
 }
