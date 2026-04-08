@@ -16,7 +16,7 @@ jobs:
 
       # Step 2: Install pnpm
       - name: Install pnpm
-        uses: pnpm/action-setup@v9
+        uses: pnpm/action-setup@v5
 
       # Step 3: Use Node.js 22
       - name: Use Node.js 22
