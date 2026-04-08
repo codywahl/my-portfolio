@@ -5,7 +5,7 @@
 	const headingText = `Highlighted Project${HIGHLIGHTED_PROJECTS.length > 1 ? 's' : ''}`;
 </script>
 
-<section class="w-fulll mx-auto">
+<section class="mx-auto">
 	<div class="mb-8 flex items-center justify-between">
 		<h2 class="text-3xl font-bold">{headingText}</h2>
 		<a href="/projects" class="text-sm text-gray-600 hover:underline dark:text-gray-400"

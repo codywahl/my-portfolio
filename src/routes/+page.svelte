@@ -1,5 +1,4 @@
 <script lang="ts">
-	import '../app.css';
 	import QuickIntro from './components/QuickIntro.svelte';
 	import HighlightedProjects from './components/HighlightedProjects.svelte';
 	import Experience from './components/Experience.svelte';

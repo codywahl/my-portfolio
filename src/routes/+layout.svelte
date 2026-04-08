@@ -4,6 +4,7 @@
 	import { dev } from '$app/environment';
 	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 	import { initializeStores, Modal } from '@skeletonlabs/skeleton';
+	import SocialLinks from './components/SocialLinks.svelte';
 	initializeStores();
 
 	injectAnalytics({ mode: dev ? 'development' : 'production' });
@@ -38,44 +39,7 @@
 			></span>
 		</a>
 
-		<!-- GitHub Icon -->
-		<a
-			href="https://github.com/codywahl"
-			target="_blank"
-			rel="noopener noreferrer"
-			aria-label="GitHub"
-			class="hidden md:block"
-		>
-			<img
-				src="/icons/github-mark.svg"
-				alt="GitHub Logo"
-				class="h-6 w-6 transition-transform duration-200 hover:scale-110 hover:opacity-80 dark:hidden"
-			/>
-			<img
-				src="/icons/github-mark-white.svg"
-				alt="GitHub Logo"
-				class="hidden h-6 w-6 transition-transform duration-200 hover:scale-110 hover:opacity-80 dark:block"
-			/>
-		</a>
-
-		<!-- LinkedIn Icon -->
-		<a
-			href="https://linkedin.com/in/codywahl"
-			target="_blank"
-			rel="noopener noreferrer"
-			aria-label="LinkedIn"
-		>
-			<img
-				src="/icons/In-Blue-26.png"
-				alt="LinkedIn Logo"
-				class="h-4 w-4 transition-transform duration-200 hover:scale-110 hover:opacity-80 dark:hidden md:h-6 md:w-6"
-			/>
-			<img
-				src="/icons/In-White-26.png"
-				alt="LinkedIn Logo"
-				class="hidden h-4 w-4 transition-transform duration-200 hover:scale-110 hover:opacity-80 dark:block md:h-6 md:w-6"
-			/>
-		</a>
+		<SocialLinks />
 
 		<!-- Light Switch -->
 		<LightSwitch />
@@ -114,46 +78,7 @@
 			Back to Top
 		</a>
 
-		<!-- Social Links -->
-		<div class="flex justify-center gap-4">
-			<!-- GitHub Icon -->
-			<a
-				href="https://github.com/codywahl"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="GitHub"
-			>
-				<img
-					src="/icons/github-mark.svg"
-					alt="GitHub Logo"
-					class="h-6 w-6 transition-transform duration-200 hover:scale-110 hover:opacity-80 dark:hidden"
-				/>
-				<img
-					src="/icons/github-mark-white.svg"
-					alt="GitHub Logo"
-					class="hidden h-6 w-6 transition-transform duration-200 hover:scale-110 hover:opacity-80 dark:block"
-				/>
-			</a>
-
-			<!-- LinkedIn Icon -->
-			<a
-				href="https://linkedin.com/in/codywahl"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="LinkedIn"
-			>
-				<img
-					src="/icons/In-Blue-26.png"
-					alt="LinkedIn Logo"
-					class="h-6 w-6 transition-transform duration-200 hover:scale-110 hover:opacity-80 dark:hidden"
-				/>
-				<img
-					src="/icons/In-White-26.png"
-					alt="LinkedIn Logo"
-					class="hidden h-6 w-6 transition-transform duration-200 hover:scale-110 hover:opacity-80 dark:block"
-				/>
-			</a>
-		</div>
+		<SocialLinks />
 
 		<!-- Copyright -->
 		<div class="mt-4 text-center text-sm text-gray-500 dark:text-gray-400">

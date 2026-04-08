@@ -16,7 +16,7 @@ jobs:
 
       # Step 2: Install pnpm
       - name: Install pnpm
-        uses: pnpm/action-setup@v5
+        uses: pnpm/action-setup@v9
 
       # Step 3: Use Node.js 22
       - name: Use Node.js 22
@@ -39,7 +39,7 @@ jobs:
 
       # Step 7: Install Vercel CLI
       - name: Install Vercel CLI
-        run: npm install --global vercel@latest
+        run: pnpm install --global vercel@latest
 
       # Step 8: Deploy to Vercel
       - name: Deploy to Vercel

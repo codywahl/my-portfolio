@@ -1,5 +1,4 @@
 <script>
-	import '../../app.css';
 	import ResumeDownload from '../components/ResumeDownload.svelte';
 	import Experience from './../components/Experience.svelte';
 	import FullIntro from './components/FullIntro.svelte';

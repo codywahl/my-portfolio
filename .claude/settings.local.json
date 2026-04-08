@@ -1,0 +1,11 @@
+{
+	"permissions": {
+		"allow": [
+			"Bash(pnpm list:*)",
+			"Bash(npm list:*)",
+			"Bash(ls -la /home/codywahl/code/my-portfolio/.env*)",
+			"Bash(pnpm install:*)",
+			"Bash(~/.local/share/pnpm/pnpm install:*)"
+		]
+	}
+}
