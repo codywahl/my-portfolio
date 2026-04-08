@@ -1,6 +1,12 @@
 <div class="flex items-center gap-4">
 	<!-- GitHub -->
-	<a href="https://github.com/codywahl" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="hidden md:block">
+	<a
+		href="https://github.com/codywahl"
+		target="_blank"
+		rel="noopener noreferrer"
+		aria-label="GitHub"
+		class="hidden md:block"
+	>
 		<img
 			src="/icons/github-mark.svg"
 			alt="GitHub"

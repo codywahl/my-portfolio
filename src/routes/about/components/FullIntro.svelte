@@ -58,7 +58,7 @@
 
 		<!-- Right Column: Carousel -->
 		<div class="pt-12">
-			<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+			<!-- svelte-ignore a11y_no_noninteractive_element_interactions a11y_no_noninteractive_tabindex -->
 			<div
 				class="relative"
 				role="region"

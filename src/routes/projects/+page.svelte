@@ -22,9 +22,17 @@
 </script>
 
 <main class="mx-auto">
-	<ProjectGrid title="Professional Projects" projects={PROFESSIONAL_PROJECTS} onProjectClick={triggerModal} />
+	<ProjectGrid
+		title="Professional Projects"
+		projects={PROFESSIONAL_PROJECTS}
+		onProjectClick={triggerModal}
+	/>
 
 	{#if PERSONAL_PROJECTS.length > 0}
-		<ProjectGrid title="Personal Projects" projects={PERSONAL_PROJECTS} onProjectClick={triggerModal} />
+		<ProjectGrid
+			title="Personal Projects"
+			projects={PERSONAL_PROJECTS}
+			onProjectClick={triggerModal}
+		/>
 	{/if}
 </main>

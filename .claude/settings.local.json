@@ -1,15 +1,17 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(pnpm list:*)",
-      "Bash(npm list:*)",
-      "Bash(ls -la /home/codywahl/code/my-portfolio/.env*)",
-      "Bash(pnpm install:*)",
-      "Bash(~/.local/share/pnpm/pnpm install:*)",
-      "WebFetch(domain:www.skeleton.dev)",
-      "WebFetch(domain:github.com)",
-      "WebSearch",
-      "WebFetch(domain:next.skeleton.dev)"
-    ]
-  }
+	"permissions": {
+		"allow": [
+			"Bash(pnpm list:*)",
+			"Bash(npm list:*)",
+			"Bash(ls -la /home/codywahl/code/my-portfolio/.env*)",
+			"Bash(pnpm install:*)",
+			"Bash(~/.local/share/pnpm/pnpm install:*)",
+			"WebFetch(domain:www.skeleton.dev)",
+			"WebFetch(domain:github.com)",
+			"WebSearch",
+			"WebFetch(domain:next.skeleton.dev)",
+			"Bash(pnpm lint:*)",
+			"Bash(pnpm format:*)"
+		]
+	}
 }

@@ -40,11 +40,13 @@
 	function handleTouchEnd(e: TouchEvent): void {
 		const delta = touchStartX - e.changedTouches[0].clientX;
 		if (Math.abs(delta) > 50) {
-			delta > 0 ? scrollRight() : scrollLeft();
+			if (delta > 0) scrollRight();
+			else scrollLeft();
 		}
 	}
 </script>
 
+<!-- svelte-ignore a11y_no_noninteractive_element_interactions a11y_no_noninteractive_tabindex -->
 <div
 	class="relative flex justify-center"
 	role="region"
