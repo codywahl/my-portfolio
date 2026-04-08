@@ -12,6 +12,35 @@
 	const year = new Date().getFullYear();
 </script>
 
+<svelte:head>
+	<title>Cody Wahl | Software Engineer</title>
+	<meta
+		name="description"
+		content="Software engineer with 13+ years of experience building cloud-native systems in fintech, e-commerce, healthcare, and manufacturing."
+	/>
+	<meta property="og:title" content="Cody Wahl | Software Engineer" />
+	<meta
+		property="og:description"
+		content="Software engineer with 13+ years of experience building cloud-native systems in fintech, e-commerce, healthcare, and manufacturing."
+	/>
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="/images/portfolio-preview.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Cody Wahl | Software Engineer" />
+	<meta
+		name="twitter:description"
+		content="Software engineer with 13+ years of experience building cloud-native systems in fintech, e-commerce, healthcare, and manufacturing."
+	/>
+	<meta name="twitter:image" content="/images/portfolio-preview.png" />
+</svelte:head>
+
+<a
+	href="#main-content"
+	class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-black focus:shadow-lg"
+>
+	Skip to content
+</a>
+
 <header class="flex items-center bg-transparent px-8 pb-4 pt-8 text-black dark:text-white md:px-32">
 	<!-- Left: Site Name -->
 	<a href="/" class="realtive-group flex pl-2 text-lg font-bold">
@@ -48,7 +77,7 @@
 
 <Modal />
 
-<main class="mx-auto max-w-5xl px-8 py-14">
+<main id="main-content" class="mx-auto max-w-5xl px-8 py-14">
 	<slot />
 </main>
 

@@ -25,9 +25,35 @@
 
 		elemCarousel.scrollTo({ left: x, behavior: 'smooth' });
 	}
+
+	function handleKeydown(e: KeyboardEvent): void {
+		if (e.key === 'ArrowLeft') scrollLeft();
+		if (e.key === 'ArrowRight') scrollRight();
+	}
+
+	let touchStartX = 0;
+
+	function handleTouchStart(e: TouchEvent): void {
+		touchStartX = e.touches[0].clientX;
+	}
+
+	function handleTouchEnd(e: TouchEvent): void {
+		const delta = touchStartX - e.changedTouches[0].clientX;
+		if (Math.abs(delta) > 50) {
+			delta > 0 ? scrollRight() : scrollLeft();
+		}
+	}
 </script>
 
-<div class="relative flex justify-center">
+<div
+	class="relative flex justify-center"
+	role="region"
+	aria-label="Professional recommendations"
+	tabindex="0"
+	on:keydown={handleKeydown}
+	on:touchstart={handleTouchStart}
+	on:touchend={handleTouchEnd}
+>
 	<!-- Carousel Container -->
 	<div
 		bind:this={elemCarousel}

@@ -23,6 +23,11 @@
 	function prevImage() {
 		currentIndex = (currentIndex - 1 + images.length) % images.length;
 	}
+
+	function handleKeydown(e: KeyboardEvent) {
+		if (e.key === 'ArrowLeft') prevImage();
+		if (e.key === 'ArrowRight') nextImage();
+	}
 </script>
 
 <section class="mx-auto gap-8">
@@ -53,7 +58,14 @@
 
 		<!-- Right Column: Carousel -->
 		<div class="pt-12">
-			<div class="relative">
+			<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+			<div
+				class="relative"
+				role="region"
+				aria-label="Photo carousel"
+				tabindex="0"
+				on:keydown={handleKeydown}
+			>
 				<!-- Carousel -->
 				<div class="flex items-center justify-center overflow-hidden">
 					<img
@@ -67,6 +79,7 @@
 				<button
 					type="button"
 					class="variant-filled btn-icon absolute -left-7 top-1/2 z-10 -translate-y-1/2 md:left-2"
+					aria-label="Previous photo"
 					on:click={prevImage}
 				>
 					←
@@ -74,6 +87,7 @@
 				<button
 					type="button"
 					class="variant-filled btn-icon absolute -right-7 top-1/2 z-10 -translate-y-1/2 md:right-2"
+					aria-label="Next photo"
 					on:click={nextImage}
 				>
 					→

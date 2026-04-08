@@ -15,9 +15,9 @@
 
 	<!-- LinkedIn -->
 	<a
-		href="https://linkedin.com/in/codywahl"
+		href="https://www.linkedin.com/in/codywahl/"
 		target="_blank"
-		rel="noopener noreferrer"
+		rel="noopener"
 		aria-label="LinkedIn"
 	>
 		<img
